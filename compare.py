@@ -119,7 +119,7 @@ print('Finished Training')
 
 # torch.save(net, 'compare.pkl')
 # net = torch.load('compare.pkl')
-
+net.eval()
 import time
 time_start=time.time()
 correct = 0
