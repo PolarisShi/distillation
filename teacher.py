@@ -162,7 +162,7 @@ print('Finished Training')
 
 # torch.save(net, 'teacher.pkl')
 # net = torch.load('teacher.pkl')
-
+net.eval()
 import time
 time_start=time.time()
 correct = 0
